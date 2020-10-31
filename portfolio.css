@@ -1,0 +1,45 @@
+body{
+    background-image: url(https://www.designbolts.com/wp-content/uploads/2013/02/Tiny-polyester-pixel-Grey-Seamless-Pattern-For-Website-Background.jpg);
+    font-family: 'Noto Serif JP', serif;
+}
+.myName{
+    width: 20%;
+    background-color: grey;
+    color: white;
+    text-align: center;
+}
+.col-md-8{
+    background-color: white;
+    margin: 20px;
+    padding: 20px;
+}
+.footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: white;
+    color: black;
+    text-align: center;
+    padding: 10px;
+  }  
+
+
+@media (max-width: 768px) {
+    .col-md-6{
+        padding: 20px;
+    }
+    .row{
+        padding: 20px;
+    }
+}
+
+
+@media (max-width: 400px) {
+    .col-md-6{
+        padding: 20px;
+    }
+    .row{
+        padding: 20px;
+    }
+}
