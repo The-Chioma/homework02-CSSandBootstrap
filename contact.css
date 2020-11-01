@@ -28,20 +28,4 @@ body{
     color: black;
     text-align: center;
     padding: 10px;
-  }  
-
-
-  @media (max-width: 768px) {
-    body{
-        width: 80%;
-    }
-}
-
-
-
-@media (max-width: 400px) {
-    body{
-        width: 100%;
-    }
-
-}
+}  
